@@ -1,7 +1,7 @@
 //Funciones.groovy
 
 //Classpath
-package src
+//package src
 
 def unirDosStrings(String param1, String param2){
 	return param1 + param2
