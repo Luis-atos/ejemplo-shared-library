@@ -1,6 +1,6 @@
 //global.groovy
 
-import org.cl.*
+import src.*
 
 def call(String param1, String param2){
 
@@ -14,7 +14,7 @@ def call(String param1, String param2){
                     script{
                         try {
 
-                            //def funciones   = new Funciones()
+                            def funciones   = new Funciones()
 
                             stage('Inicio'){
                                 println 'Inicio'
@@ -25,8 +25,7 @@ def call(String param1, String param2){
                             }
 
                             stage('Union'){
-                                println 'Union de 2 Strings: ' 
-                                // + funciones.unirDosStrings(param1, param2)          
+                                println 'Union de 2 Strings: ' + funciones.unirDosStrings(param1, param2)          
                             }
 
                             stage('MostrarNombre'){
