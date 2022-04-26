@@ -14,7 +14,7 @@ def call(String param1, String param2){
                     script{
                         try {
 
-                            def funciones   = new Funciones()
+                            def funciones   = new funciones()
 
                             stage('Inicio'){
                                 println 'Inicio'
